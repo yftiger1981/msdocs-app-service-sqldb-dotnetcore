@@ -57,7 +57,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'msdocs-core-432'
+          app-name: 'aspcore-test'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8DB6BDDD65EE4FE2846AFBCBC4BD0A0C }}
           package: .
